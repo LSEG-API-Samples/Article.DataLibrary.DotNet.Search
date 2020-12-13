@@ -7,7 +7,7 @@ With the wealth of content offered within the Refinitiv ecosystem, the following
 Details and concepts are further explained in the [Building Search into your Application Workflow]() article published on the [Refinitiv Developer Community portal](https://developers.refinitiv.com).
 
 ## <a id="disclaimer"></a>Disclaimer
-The source code presented in this project has been written by Refinitiv only for the purpose of illustrating the concepts of creating example scenarios using the Refinitiv Data Platform Library for Python.
+The source code presented in this project has been written by Refinitiv only for the purpose of illustrating the concepts of creating example scenarios using the Refinitiv Data Platform Library for .Net.
 
 ***Note:** To [ask questions](https://community.developers.refinitiv.com/index.html) and benefit from the learning material, I recommend you to register on the [Refinitiv Developer Community](https://developers.refinitiv.com)*
 
@@ -23,11 +23,11 @@ License(s):
 
 - A [Refinitiv Data Platform (RDP)](https://developers.refinitiv.com/refinitiv-data-platform/refinitiv-data-platform-apis) license with access to the [Search endpoint](https://api.refinitiv.com/) data services
 
-[Development Environment](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials#setting-up-a-python-development-environment)
+Development Environment
 
-- Tested with Python 3.7
-- Packages: [rdp](https://pypi.org/project/refinitiv-dataplatform/) [pandas](https://pypi.org/project/pandas/) datetime dateutil
-- RDP for Python installation:  '**pip install refinitiv-dataplatform**'
+- [Jupyter Notebook](https://jupyter.org/install)
+
+- [.NET Interactive](https://github.com/dotnet/interactive/blob/main/docs/NotebooksLocalExperience.md)
 
 ## <a name="setup"></a>Setup
 
