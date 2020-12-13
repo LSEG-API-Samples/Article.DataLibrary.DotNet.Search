@@ -53,7 +53,7 @@ The application package includes a series of Jupyter Notebooks demonstrating fea
   var session = CoreFactory.CreateSession(new PlatformSession.Params()
                               .WithOAuthGrantType(new GrantPassword()
                                                            .UserName("RDP UserName")
-                                                           .Password("RDP Password))
+                                                           .Password("RDP Password"))
                               .AppKey("Your API Key here")
                               .WithTakeSignonControl(true)
                               .OnState(...)
