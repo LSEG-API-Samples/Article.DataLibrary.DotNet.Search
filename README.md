@@ -41,19 +41,23 @@ The application package includes a series of Jupyter Notebooks demonstrating fea
   If you have an RDP license, you will need to replace the session code segment at the top of each notebook.  Replace the following line:
   
   ```
-  rdp.open_desktop_session('Your API Key here')
+  var session = CoreFactory.CreateSession(new DesktopSession.Params()
+                              .AppKey("Your API Key here")
+                              .OnState(...)
+                              .OnEvent(...));
   ```
   
   With the following:
   
   ```python
-  rdp.open_platform_session(
-    "Your API Key here",
-      rdp.GrantPassword(
-          username = "<YOUR MACHINE ID>",
-          password = "<PASSWORD>"
-      )
-  )
+  var session = CoreFactory.CreateSession(new PlatformSession.Params()
+                              .WithOAuthGrantType(new GrantPassword()
+                                                           .UserName("RDP UserName")
+                                                           .Password("RDP Password))
+                              .AppKey("Your API Key here")
+                              .WithTakeSignonControl(true)
+                              .OnState(...)
+                              .OnEvent(...));
   ```
 
 ### <a id="authors"></a>Authors
