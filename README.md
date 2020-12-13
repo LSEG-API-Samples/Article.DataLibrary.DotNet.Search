@@ -40,7 +40,7 @@ The application package includes a series of Jupyter Notebooks demonstrating fea
   
   If you have an RDP license, you will need to replace the session code segment at the top of each notebook.  Replace the following line:
   
-  ```
+  ```c#
   var session = CoreFactory.CreateSession(new DesktopSession.Params()
                               .AppKey("Your API Key here")
                               .OnState(...)
@@ -49,7 +49,7 @@ The application package includes a series of Jupyter Notebooks demonstrating fea
   
   With the following:
   
-  ```python
+  ```c#
   var session = CoreFactory.CreateSession(new PlatformSession.Params()
                               .WithOAuthGrantType(new GrantPassword()
                                                            .UserName("RDP UserName")
