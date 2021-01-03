@@ -1,7 +1,9 @@
 # Building Search into your Application Workflow
 
+For the equivalent Python implementation, refer here: [Article.RDPLibrary.Python.Search](https://github.com/Refinitiv-API-Samples/Article.RDPLibrary.Python.Search)
 
 ## <a id="overview"></a>Overview
+
 With the wealth of content offered within the Refinitiv ecosystem, the following series of examples will outline the core capabilities available within Refinitiv's Search API, a powerful, Google-like search engine covering content such as quotes, instruments, organizations, and many other assets that can be programmatically integrated within your business Workflow.
 
 Details and concepts are further explained in the [Building Search into your Application Workflow](https://developers.refinitiv.com/en/article-catalog/article/building-search-into-your-application-workflow) article published on the [Refinitiv Developer Community portal](https://developers.refinitiv.com).
