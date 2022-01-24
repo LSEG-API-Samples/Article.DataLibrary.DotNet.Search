@@ -21,9 +21,6 @@ License(s):
 
 - A Refinitiv desktop license (Refinitiv Eikon or Refinitiv Workspace) that has API access 
 
-  **OR**
-
-- A [Refinitiv Data Platform (RDP)](https://developers.refinitiv.com/refinitiv-data-platform/refinitiv-data-platform-apis) license with access to the [Search endpoint](https://api.refinitiv.com/) data services
 
 Development Environment
 
@@ -36,35 +33,14 @@ Development Environment
 The application package includes a series of Jupyter Notebooks demonstrating features of the service.  Depending where you plan to access the content from, you will need provide the proper credentials:
 * **Desktop Access**
   
-  The notebooks have been set up and tested to access data within the desktop, whether Refinitiv Workspace or Eikon.  For each, you simply need to replace the **'Your API Key here'** with your own [generated application API key](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/quick-start#quick-start-guide-for-windows).
+  The notebooks have been set up and tested to access data within the desktop, whether Refinitiv Workspace or Eikon. 
   
-* **Platform Access**
   
-  If you have an RDP license, you will need to replace the session code segment at the top of each notebook.  Replace the following line:
   
-  ```c#
-  var session = CoreFactory.CreateSession(new DesktopSession.Params()
-                              .AppKey("Your API Key here")
-                              .OnState(...)
-                              .OnEvent(...));
-  ```
-  
-  With the following:
-  
-  ```c#
-  var session = CoreFactory.CreateSession(new PlatformSession.Params()
-                              .WithOAuthGrantType(new GrantPassword()
-                                                           .UserName("RDP UserName")
-                                                           .Password("RDP Password"))
-                              .AppKey("Your API Key here")
-                              .WithTakeSignonControl(true)
-                              .OnState(...)
-                              .OnEvent(...));
-  ```
 
 ### <a id="authors"></a>Authors
 
-* **Nick Zincone** - Release 1.0.  *Initial version*
+* **Nick Zincone** - Release 1.1.  *Update to reflect Refinitiv Data Library for .Net - 1.0.0-beta3*
 
 
 
