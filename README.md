@@ -9,7 +9,7 @@ With the wealth of content offered within the Refinitiv ecosystem, the following
 Details and concepts are further explained in the [Building Search into your Application Workflow](https://developers.refinitiv.com/en/article-catalog/article/building-search-into-your-application-workflow) article published on the [Refinitiv Developer Community portal](https://developers.refinitiv.com).
 
 ## <a id="disclaimer"></a>Disclaimer
-The source code presented in this project has been written by Refinitiv only for the purpose of illustrating the concepts of creating example scenarios using the Refinitiv Data Platform Library for .Net.
+Theï¿½source code presented in this project has been written by Refinitiv only for the purpose of illustrating the concepts of creating example scenarios using the Refinitiv Data Platform Library for .Net.
 
 ***Note:** To [ask questions](https://community.developers.refinitiv.com/index.html) and benefit from the learning material, I recommend you to register on the [Refinitiv Developer Community](https://developers.refinitiv.com)*
 
@@ -41,6 +41,7 @@ The application package includes a series of Jupyter Notebooks demonstrating fea
 ### <a id="authors"></a>Authors
 
 * **Nick Zincone** - Release 1.1.  *Update to reflect Refinitiv Data Library for .Net - 1.0.0-beta3*
+* * **Nick Zincone** - Release 1.2.  *Update to reflect Refinitiv Data Library for .Net - 1.0.0-beta4*
 
 
 
